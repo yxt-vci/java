@@ -5,5 +5,5 @@ import com.yxt.utils.BusinessException;
 
 public interface UserService {
     User register(User user) throws BusinessException;
-    User login(String username,String password) throws  BusinessException;
+    User login(String username, String password) throws  BusinessException;
 }
